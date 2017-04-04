@@ -1,0 +1,139 @@
+body {
+ 	font-family: 'Open Sans';
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #84DCC6;
+}
+
+
+
+.close-animatedModal{
+	padding-top: 40px;
+}
+
+.header{
+	padding: 40px 80px 20px 40px;
+	font-size: 1em;
+	display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-decoration: none;
+    justify-content: flex-end;
+    color: #222222;
+}
+
+.container{
+	height: 80vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+	padding: 0px 20px 0px 20px;
+}
+
+.innermost_circ{
+	font-family: 'Montserrat';
+	font-size: .8em;
+	height: 220px;
+	width: 220px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin:auto;
+	border-radius: 100%;
+    background: white;
+    border: 30px solid #F4E842;
+    z-index: 1;
+}
+
+.middle_circ{
+	height: 300px;
+	width: 300px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin:auto;
+	border-radius: 100%;
+    background: white;
+    border: 20px solid #84DCC6;
+    z-index: 1;
+}
+
+.outer_circ{
+	height: 350px;
+	width: 350px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin:auto;
+	border-radius: 100%;
+    background: white;
+    border: 10px solid #222222;
+    z-index: 1;
+}
+
+.keywords{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	flex-direction: row;
+	top: 3%;
+	font-size: .8em;
+	width: 40%;
+	color: #84DCC6;
+}
+
+#my_camera{
+	display: none;
+}
+
+#my_result{
+	display: none;
+}
+
+#cam_clicker{
+	display: none;
+	position: absolute;
+	top: 70%;
+	cursor: pointer;
+	z-index: 3;
+}
+
+#cam_trigger{
+	cursor: pointer;
+	z-index: 3;
+}
+
+#splash {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden; }
+
+ canvas{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+ }
+
+ .chart{
+ 	width: 30%;
+ 	padding: 50px 20px 50px 20px;
+ }
+
+ .modal-content{
+ 	display: flex;
+ 	flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
